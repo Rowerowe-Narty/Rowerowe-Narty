@@ -1,0 +1,31 @@
+body, html {
+    font-family: Signika Negative, sans-serif;
+    background: #111;
+    color: #efefef;
+    height: 100%;
+    background: rgb(15,133,224);
+    background: linear-gradient(180deg, rgba(15,133,224,1) 0%, rgba(242,16,16,1) 100%);
+}
+
+/* Przyciski */
+.btn {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px 80px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    background-color: rgb(38, 38, 38);
+    border: solid 1px transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+}
+.btn:hover, .btn:hover a {
+    transform: scale(1.2);
+    color: #0f56da;
+}
