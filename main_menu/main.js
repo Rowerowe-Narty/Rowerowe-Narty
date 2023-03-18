@@ -8,7 +8,7 @@ function handleClick() {
         transform: 'scale(0.5) translateY(-100px)'
     }, {
         duration: 500, // czas trwania animacji
-        easing: 'easeInBack', //funkcja ułatwiająca określenie przebiegu animacji
+        easing: 'easeInBack', // funkcja ułatwiająca określenie przebiegu animacji
         queue: false // ustawiamy, aby animacja nie była dodawana do kolejki animacji
     });
 
