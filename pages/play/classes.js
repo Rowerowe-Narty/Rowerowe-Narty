@@ -1,4 +1,4 @@
-class Player {
+class Sprite {
     constructor ({
         position,
         imageSrc,
